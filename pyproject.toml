@@ -1,0 +1,21 @@
+[project]
+name = "doppeltest"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "==3.8.10"
+dependencies = [
+    "cyber-record==0.1.7",
+    "deap==1.3.1",
+    "docker==7.1.0",
+    "networkx==2.5.1",
+    "numpy==1.21.0",
+    "pandas==1.2.4",
+    "protobuf==3.19.0",
+    "pyyaml>=6.0.3",
+    "shapely==1.7.1",
+    "sphinx==1.8.5",
+    "sphinx-rtd-theme==1.1.1",
+    "typeguard>=4.4.0",
+    "websocket-client==1.4.2",
+]
