@@ -48,6 +48,8 @@ In this section we will be discussing steps to replicate the results discussed i
 
 ### INSTALLING Baidu Apollo
 
+> You can now use `scripts/install_apollo.sh` to automatically install Apollo!
+
 1. Download the DoppelTest version of Apollo 7.0 from https://doi.org/10.5281/zenodo.7622089
 
 > In this forked version, we made slight adjustments that are not related to the AD stack
@@ -69,6 +71,8 @@ In this section we will be discussing steps to replicate the results discussed i
 6. In the container, build Apollo via `./apollo.sh build`
 
 ### INSTALLING DoppelTest
+
+> You can now use `uv install` to setup DoppelTest's Python dependencies!
 
 1. Install the required Python libraries via `pip install -r requirements.txt`
 
